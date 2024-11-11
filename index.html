@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Proyecto AVI</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles2.css">
+  <link rel="stylesheet" href="accordion-styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <script> </script>
+</head>
+
+<body>
+  <nav>
+    <div class="aa">
+      <div class="ab">
+        <button>
+          <img style="margin-right: 2rem; padding-top: 1rem; " src="src/logocole.jpg" />
+        </button>
+        <h1>Proyecto AVI</h1>
+      </div>
+    </div>
+    <div class="ba">
+      <div class="dropdown">
+        <button>INTEGRANTES</button>
+        <div class="dropdown-content">
+          <a target="_blank" href="https://instagram.com/1laauu">Lautaro Urquiza</a>
+          <a target="_blank" href="https://instagram.com/1yaaami">Vera Yamila</a>
+          <a target="_blank" href="https://instagram.com/tob_laut">Silva Tobias</a>
+          <a target="_blank" href="https://instagram.com/00valenv">Vacotto Valentin</a>
+        </div>
+      </div>
+      <a class="expansive-btn" style="text-decoration: none;" href="/#about_us">NOSOTROS</a>
+      <button class="expansive-btn"><a target="_blank" href="https:wa.me/1160328311" style="color:black; text-decoration: none;">CONTACTO</a></button>
+    </div>
+  </nav>
+
+  <section class="ca">
+    <div class="cb">
+      <div class="cba">
+        <h1 class="HACHE" style="cursor: pointer;">Alumbrado Vial</h1>
+        <h1 class="HACHE" style="cursor: pointer;">Inteligente</h1>
+        <h3>Nosotros, los integrantes de Alumbrado Vial Automático buscamos una manera sustentable de evitar gastos energéticos innecesarios, promoviendo el buen uso de la energía y buscando una mayor eficiencia.<br></h3>
+        <div class="cbb">
+          <div id="container">
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <a href="" style="text-decoration: none;" class="button-text">ENCUESTA</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cc">
+      <img src="src/logoAVI.png">
+    </div>
+  </section>
+
+  <section class="da" style="padding-top:2rem; align-items: center; display: flex;" id="about_us">
+    <div class="db">
+      <h2>ACERCA DE NOSOTROS</h2>
+      <h1>¿Qué es AVI?</h1>
+      <h4>AVI es una alternativa energética al alumbrado público actual, basado en estos 3 principios:</h4>
+    </div>
+    <div class="dc">
+      <button class="expansive-btn">
+        <span style="font-size: 3.5rem; color: rgb(125, 222, 255);" class="material-symbols-outlined">
+          transcribe
+          </span>        
+        <h1>Dinamismo</h1>
+        <h4>La iluminación será dinamica, en base a la detección de personas y/o vehículos.</h4>
+      </button>
+      <button class="expansive-btn">
+        <span class="material-symbols-outlined" style="font-size: 3.5rem; color: rgb(125, 222, 255);">
+          eco
+          </span>
+        <h1>Eficiencia energética</h1>
+        <h4>Se utiliza luminaria LED para una mejor eficiencia a comparación de las lamparas de sodio que en la actualidad se usan en algunas zonas.</h4>
+      </button>
+      <button class="expansive-btn">
+        <i class="material-icons"></i>
+        <span class="material-symbols-outlined" style="font-size: 3.5rem; color: rgb(125, 222, 255);">
+          table_lamp
+          </span>
+        <h1>Iluminación variable</h1>
+        <h4>El porcentaje de la iluminación dependera de diversos factores, como los sensores, el clima o el horario.</h4>
+      </button>
+    </div>
+  </section>
+
+  <section class="ea">
+    <div style="display: flex; justify-items: center; align-items: center;">
+      <h1 style="margin-left: auto; margin-right: auto; width: fit-content; margin-bottom: 2rem;">Preguntas & Respuestas</h1>
+    </div>
+    <div style="display: flex;">
+      <div class="eb">
+        <img src="src/lampara.png">
+      </div>
+      <div class="ec" style="display: flex; align-items: center; justify-items: center;">
+        <div>
+          <div class="eca">
+            <section class="accordion" id="overview">
+              <h1 class="title"><a onclick="myFunction(); return false;" href="#overview">¿Cómo se detectan los vehículos?</a>
+              </h1>
+              <div class="content">
+                <div class="wrapper">
+                  <p>Para la detección de vehículos utilizamos un sensor inductivo, que con un campo electromagnético es capaz de sensorizar la interferencia del metal de los automóviles, motocicletas o bicicletas.
+                    El sensor que vamos a utilizar es el <a href="https://uelectronics.com/producto/lj12a3-4-z-bx-npn-sensor-de-proximidad-inductivo/?srsltid=AfmBOorZWaStlebEQ6elay5b5OQgXfQv8wRf-F9NOCWQL67uwzioYKYn" target="_blank">Lj12a3-4</a>
+                  </p>
+                </div>
+              </div>
+            </section>
+  
+            <section class="accordion" id="how-does-it-work">
+              <h1 class="title"><a href="#how-does-it-work">¿Cómo manejamos la señal del sensor?</a></h1>
+              <div class="content">
+                <div class="wrapper">
+                  <p>
+                    Para esta tarea utilizamos un <a href="https://www.electroallweb.com/index.php/2020/02/12/funcionamiento-de-todos-los-pines-del-microcontrolador-atmega328p/">Atmega328P</a>, que es un circuito integrado de alto rendimiento, basado en un microcontrolador RISC (computador conjunto de instrucciones reducidas), con una memoria de 32KB flash con capacidad de leer entradas mientras esté ejecutando alguna acción en la parte de las salidas.
+                  </p>
+                </div>
+              </div>
+            </section>
+  
+            <section class="accordion" id="inspiration">
+              <h1 class="title"><a href="#inspiration">¿Cómo unimos todo?</a></h1>
+              <div class="content">
+                <div class="wrapper">
+                  <p>
+                    Con una serie de componentes necesarios para que el Atmega328P funcione de manera adecuada, elementos de conexión, luces LED y una fuente para alimentar cada parte del sistema.  
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="section-why-choose-us">
+    <div class="div1">
+      <h1>WHY CHOOSE US</h1>
+      <h2>Create your app page<br> with expert developer</h2>
+      <ul>
+        <li>
+          <div>
+            <img src="src/bluecheck.png">
+          </div>
+          <div class="div3">
+            <h4>First Working Process</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod facere aspernatur reiciendis vero
+            </h5>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="src/bluecheck.png">
+          </div>
+          <div class="div3">
+            <h4>Dedicated Team Member</h4>
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias error porro quod neque, deserunt
+            </h5>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="src/bluecheck.png">
+          </div>
+          <div class="div3">
+            <h4>24/7 Hours Support</h4>
+            <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore voluptatibus minima ab! Eligendi
+              rerum.</h5>
+          </div>
+        </li>
+      </ul>
+      <div class="box">
+        <h1>Technology we use</h1>
+        <div class="lenguages">
+          <img src="src/Lenguajes/c.png" alt="c">
+          <img src="src/Lenguajes/java.png" alt="java">
+          <img src="src/Lenguajes/javascript.png" alt="js">
+          <img src="src/Lenguajes/php.png" alt="php">
+          <img src="src/Lenguajes/python.png" alt="python">
+        </div>
+      </div>
+    </div>
+    <div class="div2">
+      <img src="src/image.png">
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="footer-margin">
+      <div class="footer1">
+        <div class="footer-section1">
+          <div style="display: flex;align-items: center;">
+            <img src="src/blueshield.png" />
+            <h1>SOFTING</h1>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus, mauris non posuere lacinia, libero dui laoreet felis, nec luctus justo est vitae magna.. Sed at leo in turpis sodales vulputate. </p>
+          <button class="learn-more">
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">GET STARTED</span>
+          </button>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="footer-section2">
+          <h3>Quick Link</h3>
+          <div class="buttons-section2">
+            <button>
+              <h6>▸Home</h6>
+            </button>
+            <button>
+              <h6>▸About us</h6>
+            </button>
+            <button>
+              <h6>▸Company History</h6>
+            </button>
+            <button>
+              <h6>▸Features</h6>
+            </button>
+            <button>
+              <h6>▸Blog page</h6>
+            </button>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer2">
+          <div class="footer-section2">
+            <h3>Community</h3>
+            <div class="buttons-section2">
+              <button>
+                <h6>▸Career</h6>
+              </button>
+              <button>
+                <h6>▸Leadership</h6>
+              </button>
+              <button>
+                <h6>▸Strategy</h6>
+              </button>
+              <button>
+                <h6>▸Services</h6>
+              </button>
+              <button>
+                <h6>▸History</h6>
+              </button>
+            </div>
+        </div>
+      </div>
+      <div class="footer1">
+        <div class="footer-section4">
+          <h3>Contact info</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus.</p>
+        </div>
+        <div class="contact-info">
+          <section>
+           <span class="material-symbols-outlined icon">home</span> 
+           <div style="display:flex; flex-direction: column;margin-left: 10px;">
+            <h5>WEBSITE:</h5>
+            <p>www.loremIpsum.com</p>
+           </div>
+          </section>
+          <section>
+            <span class="material-symbols-outlined icon">mail</span>
+            <div style="display:flex; flex-direction: column; margin-left: 10px;">
+              <h5>EMAIL:</h5>
+              <p>loremipsum@gmail.com</p>
+            </div>
+          </section>
+          <section>
+            <span class="material-symbols-outlined icon">phone</span>
+            <div style="display:flex; flex-direction: column;margin-left: 10px;">
+              <h5>PHONE</h5>
+              <p>11 3883 7156</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h4
+      style="font-size: 1rem; margin-top: 1rem; font-weight: 100;padding-bottom: 1rem; margin-left: auto;margin-right: auto;">
+      &copy; 2024 Designed by softwarearrow.
+    </h4>
+  </footer>
+
+</body>
