@@ -1,3 +1,11 @@
+@media only screen and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+    }
+    .dc{
+        flex-direction: column;
+    }
+}
 body {
     background-color: white;
     width: 100%;
@@ -479,7 +487,7 @@ footer img{
     padding: 2px;
 }
 
-button h6{
+.buttons-section2 button a{
     text-align: left;
     height: fit-content;
     margin-top: 0;
